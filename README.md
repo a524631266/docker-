@@ -27,7 +27,7 @@
 ```
  这样可读层的写时复制以及镜像的分层构架,快速构建镜像,以及运行我们自己的应用项目\服务
 ```
-- 3. docker 守护进程
+- 3. docker [守护进程](基本命令/一次性运行命令.md) 
    - 守护进程是主服务构建一个docker容器的主线程,docker用户对容器的使用,docker pull /docker run ..都是与守护进程进行交互的,也就是用户与容器的一个通道
    - ***比喻*** 粮仓的门
 - 4. docker 仓库
@@ -37,3 +37,11 @@
     - Docker Hub
          docker 在线演示
     -    [官方在线演示](https://www.docker.com/tryit/ )
+
+
+# docker利用linux内核中的两大特性
+
+- namespace 命名空间
+  + 封装
+- cgroups (控制组 contral groups)
+  + 管理
