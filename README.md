@@ -30,14 +30,15 @@
 - 3. docker [守护进程](基本命令/一次性运行命令.md) 
    - 守护进程是主服务构建一个docker容器的主线程,docker用户对容器的使用,docker pull /docker run ..都是与守护进程进行交互的,也就是用户与容器的一个通道
    - ***比喻*** 粮仓的门
-- 4. docker 仓库
+- 4. docker 仓库 repository
     - 仓库是用来存储各种镜像(文件配置),在大仓库中有很多粮食,这些粮食就是镜像,那么,我这里就把仓库比作粮仓.
     - 共有 
     - 私有
     - Docker Hub
          docker 在线演示
     -    [官方在线演示](https://www.docker.com/tryit/ )
-
+  5. registry 仓库存储服务
+    - 这个是用来服务于仓库(repository),即包含了很多repository仓库
 
 # docker利用linux内核中的两大特性
 
