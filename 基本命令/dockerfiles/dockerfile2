@@ -2,4 +2,5 @@ FROM centos
 ENV mypath /tmp
 WORKDIR $mypath
 RUN yum install -y curl
+ENTRYPOINT ["echo","hello"]
 ENTRYPOINT ["curl","-s","https://ip.cn"]
